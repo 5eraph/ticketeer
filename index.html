@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset=utf-8>
+  <meta name=keywords content="events, tickets, smart contract, blockchain, Telegram Open Network">
+  <meta name=description content="TICKETEER - Cryptographically proven ticket sales for everyone.">
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <link rel=icon href=favicon.ico>
+  <title>Ticketeer</title>
+  <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css>
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Lato&display=swap" rel=stylesheet>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .loader-wrap {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+    }
+
+    .loader {
+      width: 20em;
+      height: 20em;
+      font-size: 10px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loader .face {
+      position: absolute;
+      border-radius: 50%;
+      border-style: solid;
+      animation: animate 3s linear infinite;
+    }
+
+    .loader .face2 {
+      position: absolute;
+      color: #718CD1;
+      font-family: "Cherry Swash", "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2em;
+    }
+
+
+    .loader .face:nth-child(1) {
+      width: 100%;
+      height: 100%;
+      color: #718CD1;
+      border-color: currentColor transparent transparent currentColor;
+      border-width: 0.2em 0.2em 0em 0em;
+      --deg: -45deg;
+      animation-direction: normal;
+    }
+
+    .loader .face:nth-child(2) {
+      width: 70%;
+      height: 70%;
+      color: #718CD1;
+      border-color: currentColor currentColor transparent transparent;
+      border-width: 0.2em 0em 0em 0.2em;
+      --deg: -135deg;
+      animation-direction: reverse;
+    }
+
+    .loader .face:nth-child(3) {
+      color: #718CD1;
+      border-color: currentColor currentColor transparent transparent;
+      border-width: 0em;
+    }
+
+    .loader .face .circle {
+      position: absolute;
+      width: 50%;
+      height: 0.1em;
+      top: 50%;
+      left: 50%;
+      background-color: transparent;
+      transform: rotate(var(--deg));
+      transform-origin: left;
+    }
+
+    .loader .face .circle::before {
+      position: absolute;
+      top: -0.5em;
+      right: -0.5em;
+      content: '';
+      width: 1em;
+      height: 1em;
+      background-color: currentColor;
+      border-radius: 50%;
+      box-shadow: 0 0 2em,
+        0 0 4em,
+        0 0 6em,
+        0 0 8em,
+        0 0 10em,
+        0 0 0 0.5em rgba(255, 255, 0, 0.1);
+    }
+
+    @keyframes animate {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+  </style><noscript>
+    <style>
+      .jsonly {
+        display: none
+      }
+    </style>
+  </noscript>
+  <link href=/ticketeer/css/chunk-2c172c22.0556d5eb.css rel=prefetch>
+  <link href=/ticketeer/css/chunk-2fc94bc2.27020c23.css rel=prefetch>
+  <link href=/ticketeer/css/chunk-31dcbff4.1bd35ff1.css rel=prefetch>
+  <link href=/ticketeer/css/chunk-3d5d8b16.c0a15dfb.css rel=prefetch>
+  <link href=/ticketeer/css/chunk-adae2968.e36ef290.css rel=prefetch>
+  <link href=/ticketeer/js/chunk-07c4d6eb.3d2b35f8.js rel=prefetch>
+  <link href=/ticketeer/js/chunk-2c172c22.f2278a24.js rel=prefetch>
+  <link href=/ticketeer/js/chunk-2fc94bc2.ac224c7a.js rel=prefetch>
+  <link href=/ticketeer/js/chunk-31dcbff4.1ee527ea.js rel=prefetch>
+  <link href=/ticketeer/js/chunk-3d5d8b16.195becee.js rel=prefetch>
+  <link href=/ticketeer/js/chunk-adae2968.7110a479.js rel=prefetch>
+  <link href=/ticketeer/css/app.f0273b89.css rel=preload as=style>
+  <link href=/ticketeer/css/chunk-vendors.5ff24fd3.css rel=preload as=style>
+  <link href=/ticketeer/js/app.824a53b5.js rel=preload as=script>
+  <link href=/ticketeer/js/chunk-vendors.d66cc71f.js rel=preload as=script>
+  <link href=/ticketeer/css/chunk-vendors.5ff24fd3.css rel=stylesheet>
+  <link href=/ticketeer/css/app.f0273b89.css rel=stylesheet>
+</head>
+
+<body><noscript>Ticketeer<br><br>Sell. Protect. Verify.Cryptographically proven ticket sales for
+  everyone.Intro<br><br>Main Concepts<br><br>Your ticket sales are powered by TS smart contract.<br><br>You can choose
+  to authorize resellers to deploy TS and sale tickets for your event, while customers are able to verify the seller
+  cretibility trough included informations in TS.<br><br>Customers are able to verify originality and number of
+  tickets they own.<br><br>TS is expected to work in a direct integration with wallet applications, which should
+  expose all client sight functionality in simple and user friendly manner.<br><br>TS is available under AGPL license
+  to secure open and consistent development.Protect your customers,<br>streamline your bussiness<br><br>Ticketeer
+  combines traditional event ticket sales organization with security benefits of blockchain.<br><br>Our innovative
+  smart contracts provide free and straightforward way to back your event with blockchain technology.prevnextstart
+  animationstartslide 17 to 18 of 9<br><br><br><br>Ticketeer smart contractThe future heart of ticket
+  sales.<br><br><br><br><br><br>Designed for event of any kind<br><br>One contract to cover entire event
+  industry.<br><br><br><br><br><br>All-in-one contract<br><br>All features you may ever
+  need.<br><br><br><br><br><br>AGPL licensed<br><br>Transparent and consistent development of the contract for
+  everyone.<br><br><br><br>Features<br><br><br><br><br><br>Resellers<br><br>You can choose to provide ticket sales
+  trough resellers, while maintaining security for your customers.<br><br><br><br><br><br>Ticket
+  verification<br><br>To verify your customers during the event you can use built-in verification
+  system.*<br><br><br><br><br><br>Refunds<br><br>Simple way to configure refund parameters according to your
+  needs.<br><br>* Always remember to protect and educate your customers.<br><br><br><br>Integration with wallet
+  applicationsTicketeer is expected to work in close relation with wallet applications.<br><br><br><br><br><br>All
+  necesarry customer operations<br><br>Buy, buy as gift, transfer or refund - all are
+  supported.<br><br><br><br><br><br>Distributed PoS<br><br>Expose sales of your tickets to all people over the world
+  integrated into cryptocurrency wallets.<br><br><br><br><br><br>Easy and consistent<br><br>User friendly access to
+  all of your event sales.© 2020 Ticketeer 5eraph@github.com</noscript>
+  <div id=app>
+    <div class="loader-wrap jsonly">
+      <div class=loader>
+        <div class=face>
+          <div class=circle></div>
+        </div>
+        <div class=face>
+          <div class=circle></div>
+        </div>
+        <div class=face2>Loading...</div>
+      </div>
+    </div>
+  </div>
+  <script src=/ticketeer/js/chunk-vendors.d66cc71f.js></script>
+  <script src=/ticketeer/js/app.824a53b5.js></script>
+</body>
+
+</html>
